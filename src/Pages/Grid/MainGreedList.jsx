@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from '../../Data/data.json';
+import { Img } from 'react-image';
 
 class MainGridList extends Component {
   render() {
@@ -31,7 +32,7 @@ class WorkListItem extends Component {
           </div>
         </div>
         <div className="worklist__card--content">
-          <img src={imgSrc} alt="img" />
+          <Img src={imgSrc} alt="img" />
         </div>
       </div>
     );
