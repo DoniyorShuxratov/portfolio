@@ -1,0 +1,30 @@
+@media (width < 750px) {
+    .mainframe {
+        padding: 10px!important;
+    }
+    .worklist {
+        grid-template-columns: repeat(1,minmax(50px,1fr))!important;
+    }
+    .header {
+        padding: 15px!important;
+        display: flex!important;
+        flex-direction: column;
+        justify-content: space-between!important;
+        min-height: 100vh;
+    }
+    .header__time {
+        justify-content: flex-start!important;
+    }
+    .header__link--media {
+        align-items: flex-start!important;
+    }
+    .header__paragraph > p {
+        font-size: 24px!important;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .header__link {
+        flex-direction: column;
+        gap: 280px;
+    }
+}

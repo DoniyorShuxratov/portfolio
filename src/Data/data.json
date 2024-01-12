@@ -1,0 +1,46 @@
+{
+    "works": [
+        {
+            "id": 1,
+            "data": "10/01/2024",
+            "type": "sketch",
+            "product": "Kingdom Slam",
+            "product-img-1": "./images/Sketches/slam.png"
+        },
+        {
+            "id": 2,
+            "data": "10/01/2024",
+            "type": "sketch",
+            "product": "Desert Castle",
+            "product-img-1": "./images/Sketches/desert.png"
+        },
+        {
+            "id": 3,
+            "data": "05/01/2024",
+            "type": "web-site",
+            "product": "Party Time",
+            "product-img-1": "./images/Web/party-time.png"
+        },
+        {
+            "id": 4,
+            "data": "30/12/2023",
+            "type": "web-site",
+            "product": "Paprika Agancy",
+            "product-img-1": "./images/Web/paprika-agancy.png"
+        },
+        {
+            "id": 5,
+            "data": "30/12/2023",
+            "type": "web-site",
+            "product": "Paprika Agancy",
+            "product-img-1": "./images/Web/paprika-agancy.png"
+        },
+        {
+            "id": 6,
+            "data": "30/12/2023",
+            "type": "web-site",
+            "product": "Paprika Agancy",
+            "product-img-1": "./images/Web/paprika-agancy.png"
+        }
+    ]
+}
