@@ -29,4 +29,8 @@
         flex-direction: column;
         height: 1px;
     }
+    .cl-2 {
+        grid-column: auto!important;
+    }
+    
 }

@@ -22,10 +22,10 @@ class WorkListItem extends Component {
   render() {
     const { data, id, type, 'product-img-1': imgSrc } = this.props.items;
 
-    const cardStyle = type === "web-site" ? {gridColumn: "auto / span 2"} : {};
+    const cardStyle = type === "web-site" ? "cl-2" : "";
 
     return (
-      <div className={`worklist__card op-d s-2 ${type}`} style={cardStyle}>
+      <div className={`worklist__card op-d s-2 ${type} ${cardStyle}`}>
         <div className="worklist__card--head">
           <p>{data}</p>
           <div className="card--id">
