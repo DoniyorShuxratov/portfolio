@@ -21,7 +21,7 @@ export default function Navigation(){
     return(
         <nav>
             <div className="container">
-                <div className="header op-d">
+                <div className="header">
                     <div className="header__greeting  op-d s-2">
                         <h1>Hello👋</h1>
                     </div>
