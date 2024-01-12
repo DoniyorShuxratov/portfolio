@@ -1,4 +1,5 @@
 @import url(Flex.css);
+@import url(anim.css);
 
 *{
     padding: 0;
@@ -67,6 +68,7 @@ a:hover {
 .header__paragraph > p {
     font-size: 28px;
     font-weight: 600;
+    line-height: 2rem;
 }
 
 .header__time {

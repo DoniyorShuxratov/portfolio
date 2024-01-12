@@ -22,7 +22,7 @@ class WorkListItem extends Component {
     const { data, id, 'product-img-1': imgSrc } = this.props.items;
 
     return (
-      <div className="worklist__card">
+      <div className="worklist__card op-d s-2">
         <div className="worklist__card--head">
           <p>{data}</p>
           <div className="card--id">
