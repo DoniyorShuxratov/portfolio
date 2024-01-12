@@ -3,7 +3,7 @@
         {
             "id": 1,
             "data": "10/01/2024",
-            "type": "sketch",
+            "type": "sketch",   
             "product": "Kingdom Slam",
             "product-img-1": "./Images/Sketches/slam.png"
         },
@@ -41,6 +41,90 @@
             "type": "web-site",
             "product": "Paprika Agancy",
             "product-img-1": "./Images/Web/paprika-agancy.png"
+        },
+        {
+            "id": 7,
+            "data": "15/05/2023",
+            "type": "posts",
+            "product": "Red Line 13",
+            "product-img-1": "./Images/Posts/red-line-1.png",
+            "product-img-2": "./Images/Posts/red-line-2.png",
+            "product-img-3": "./Images/Posts/red-line-3.png",
+            "product-img-4": "./Images/Posts/red-line-4.png",
+            "product-img-5": "./Images/Posts/red-line-5.png",
+            "product-img-6": "./Images/Posts/red-line-6.png"
+        },
+        {
+            "id": 8,
+            "data": "09/09/2023",
+            "type": "posts",
+            "product": "Chesni Pharm",
+            "product-img-1": "./Images/Posts/chesni-pharm-1.png",
+            "product-img-2": "./Images/Posts/chesni-pharm-2.png",
+            "product-img-3": "./Images/Posts/chesni-pharm-3.png",
+            "product-img-4": "./Images/Posts/chesni-pharm-4.png",
+            "product-img-5": "./Images/Posts/chesni-pharm-5.png",
+            "product-img-6": "./Images/Posts/chesni-pharm-6.png",
+            "product-img-7": "./Images/Posts/chesni-pharm-7.png",
+            "product-img-8": "./Images/Posts/chesni-pharm-8.png"
+        },
+        {
+            "id": 9,
+            "data": "16/06/2023",
+            "type": "posts",
+            "product": "PDP Students Union",
+            "product-img-1": "./Images/Posts/pdp-university-1.png",
+            "product-img-2": "./Images/Posts/pdp-university-2.jpg",
+            "product-img-3": "./Images/Posts/pdp-university-3.jpg"
+        },
+        {
+            "id": 10,
+            "data": "03/10/2023",
+            "type": "posts",
+            "product": "Perfect Elevators",
+            "product-img-1": "./Images/Posts/perfect-elevators-1.png",
+            "product-img-2": "./Images/Posts/perfect-elevators-2.png",
+            "product-img-3": "./Images/Posts/perfect-elevators-3.png",
+            "product-img-4": "./Images/Posts/perfect-elevators-4.png",
+            "product-img-5": "./Images/Posts/perfect-elevators-5.png",
+            "product-img-6": "./Images/Posts/perfect-elevators-6.png",
+            "product-img-7": "./Images/Posts/perfect-elevators-7.png",
+            "product-img-8": "./Images/Posts/perfect-elevators-8.png",
+            "product-img-9": "./Images/Posts/perfect-elevators-9.png",
+            "product-img-10": "./Images/Posts/perfect-elevators-10.png",
+            "product-img-11": "./Images/Posts/perfect-elevators-11.png"
+        },
+        {
+            "id": 11,
+            "data": "28/07/2023",
+            "type": "posts",
+            "product": "Perma Color",
+            "product-img-1": "./Images/Posts/perma-color-1.jpg",
+            "product-img-2": "./Images/Posts/perma-color-2.jpg",
+            "product-img-3": "./Images/Posts/perma-color-3.jpg",
+            "product-img-4": "./Images/Posts/perma-color-4.jpg",
+            "product-img-5": "./Images/Posts/perma-color-5.jpg",
+            "product-img-6": "./Images/Posts/perma-color-6.jpg",
+            "product-img-7": "./Images/Posts/perma-color-7.png",
+            "product-img-8": "./Images/Posts/perma-color-8.png",
+            "product-img-9": "./Images/Posts/perma-color-9.pg",
+            "product-img-10": "./Images/Postsperma-colors-10.png"
+        },
+        {
+            "id": 11,
+            "data": "28/07/2023",
+            "type": "posts",
+            "product": "Perma Color",
+            "product-img-1": "./Images/Posts/perma-color-1.jpg",
+            "product-img-2": "./Images/Posts/perma-color-2.jpg",
+            "product-img-3": "./Images/Posts/perma-color-3.jpg",
+            "product-img-4": "./Images/Posts/perma-color-4.jpg",
+            "product-img-5": "./Images/Posts/perma-color-5.jpg",
+            "product-img-6": "./Images/Posts/perma-color-6.jpg",
+            "product-img-7": "./Images/Posts/perma-color-7.png",
+            "product-img-8": "./Images/Posts/perma-color-8.png",
+            "product-img-9": "./Images/Posts/perma-color-9.pg",
+            "product-img-10": "./Images/Postsperma-colors-10.png"
         }
     ]
 }
