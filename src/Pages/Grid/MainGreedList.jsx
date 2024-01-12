@@ -1,26 +1,41 @@
+import React, { Component } from 'react';
 import data from '../../Data/data.json';
 
-export default function MainGreedList(){
-    return(
-        <section className="worklist--section">
-            <div className="container">
-                <div className="worklist">
-                    {data?.works?.map((items, i) => (
-                        <div key={i} className="worklist__card">
-                        <div className="worklist__card--head">
-                            <p>{items.data}</p>
-                            <div className="card--id">
-                                <p>ID</p>
-                                <pre>{items.id}</pre>
-                            </div>
-                        </div>
-                        <div className="worklist__card--content">
-                            <img src={require(items['product-img-1'])} alt="" srcset="" />
-                        </div>
-                    </div>
-                    ))}
-                </div>
-            </div>
-        </section>
-    )
+class MainGridList extends Component {
+  render() {
+    return (
+      <section className="worklist--section">
+        <div className="container">
+          <div className="worklist">
+            {data?.works?.map((items, i) => (
+              <WorkListItem key={i} items={items} />
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  }
 }
+
+class WorkListItem extends Component {
+  render() {
+    const { data, id, 'product-img-1': imgSrc } = this.props.items;
+
+    return (
+      <div className="worklist__card">
+        <div className="worklist__card--head">
+          <p>{data}</p>
+          <div className="card--id">
+            <p>ID</p>
+            <pre>{id}</pre>
+          </div>
+        </div>
+        <div className="worklist__card--content">
+          <img src={imgSrc} alt="" srcSet="" />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default MainGridList;
