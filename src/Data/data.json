@@ -32,15 +32,15 @@
             "id": 5,
             "data": "30/12/2023",
             "type": "web-site",
-            "product": "Paprika Agancy",
-            "product-img-1": "./Images/Web/paprika-agancy.png"
+            "product": "Texnogarant",
+            "product-img-1": "./Images/Web/texnogarant.png"
         },
         {
             "id": 6,
             "data": "30/12/2023",
             "type": "web-site",
-            "product": "Paprika Agancy",
-            "product-img-1": "./Images/Web/paprika-agancy.png"
+            "product": "Box",
+            "product-img-1": "./Images/Web/bo.png"
         },
         {
             "id": 7,
@@ -112,19 +112,29 @@
         },
         {
             "id": 11,
-            "data": "28/07/2023",
+            "data": "13/03/2023",
             "type": "posts",
-            "product": "Perma Color",
-            "product-img-1": "./Images/Posts/perma-color-1.jpg",
-            "product-img-2": "./Images/Posts/perma-color-2.jpg",
-            "product-img-3": "./Images/Posts/perma-color-3.jpg",
-            "product-img-4": "./Images/Posts/perma-color-4.jpg",
-            "product-img-5": "./Images/Posts/perma-color-5.jpg",
-            "product-img-6": "./Images/Posts/perma-color-6.jpg",
-            "product-img-7": "./Images/Posts/perma-color-7.png",
-            "product-img-8": "./Images/Posts/perma-color-8.png",
-            "product-img-9": "./Images/Posts/perma-color-9.pg",
-            "product-img-10": "./Images/Postsperma-colors-10.png"
+            "product": "Premium Mebel",
+            "product-img-1": "./Images/Posts/premium-mebel-1.jpg",
+            "product-img-2": "./Images/Posts/premium-mebel-2.jpg",
+            "product-img-3": "./Images/Posts/premium-mebel-3.jpg",
+            "product-img-4": "./Images/Posts/premium-mebel-4.jpg"
+        },
+        {
+            "id": 12,
+            "data": "18/04/2023",
+            "type": "posts",
+            "product": "Academy Of Al-Xorezmi",
+            "product-img-1": "./Images/Posts/academy-of-al-xorezmiy-1.png",
+            "product-img-2": "./Images/Posts/academy-of-al-xorezmiy-2.png",
+            "product-img-3": "./Images/Posts/academy-of-al-xorezmiy-3.png"
+        },
+        {
+            "id": 1,
+            "data": "10/01/2024",
+            "type": "logo",   
+            "product": "Const",
+            "product-img-1": "./Images/Logos/const.png"
         }
     ]
 }
