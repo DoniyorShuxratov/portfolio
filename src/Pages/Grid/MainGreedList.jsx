@@ -31,7 +31,7 @@ class WorkListItem extends Component {
           </div>
         </div>
         <div className="worklist__card--content">
-          <img src={imgSrc} alt="" srcSet="" />
+          <img src={imgSrc} alt="img" />
         </div>
       </div>
     );
