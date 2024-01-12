@@ -40,7 +40,7 @@
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Box",
-            "product-img-1": "./Images/Web/bo.png"
+            "product-img-1": "./Images/Web/box.png"
         },
         {
             "id": 7,
@@ -115,10 +115,10 @@
             "data": "13/03/2023",
             "type": "posts",
             "product": "Premium Mebel",
-            "product-img-1": "./Images/Posts/premium-mebel-1.jpg",
-            "product-img-2": "./Images/Posts/premium-mebel-2.jpg",
-            "product-img-3": "./Images/Posts/premium-mebel-3.jpg",
-            "product-img-4": "./Images/Posts/premium-mebel-4.jpg"
+            "product-img-1": "./Images/Logos/premium-mebel-1.jpg",
+            "product-img-2": "./Images/Logos/premium-mebel-2.jpg",
+            "product-img-3": "./Images/Logos/premium-mebel-3.jpg",
+            "product-img-4": "./Images/Logos/premium-mebel-4.jpg"
         },
         {
             "id": 12,
