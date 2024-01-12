@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const AnimJsc = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

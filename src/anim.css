@@ -1,12 +1,12 @@
 .op {
     opacity: 0;
-    transform: translateX(-120px);
+    transform: translateX(-90px);
     transition: all 1s ease;
 }
 
 .op-d{
     opacity: 0;
-    transform: translatey(120px);
+    transform: translatey(30px);
     transition: all 1s ease;
 }
 
