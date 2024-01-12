@@ -32,7 +32,7 @@ a {
     text-decoration: none;
     color: var(--main-dark);
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 a:hover {
@@ -73,7 +73,7 @@ a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .header__time--text {
