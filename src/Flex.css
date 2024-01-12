@@ -24,7 +24,9 @@
         line-height: 2rem;
     }
     .header__link {
+        align-self: unset;
+        flex: 1 0 0px;
         flex-direction: column;
-        gap: 280px;
+        height: 1px;
     }
 }
