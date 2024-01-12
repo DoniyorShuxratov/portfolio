@@ -94,6 +94,9 @@ a:hover {
     display: flex;
     gap: 42px;
 }
+.header__link--nav a {
+    padding-bottom: 8px;
+}
 
 .header__link--cl1 {
     display: flex;
