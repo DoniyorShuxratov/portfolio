@@ -5,14 +5,14 @@
             "data": "10/01/2024",
             "type": "sketch",
             "product": "Kingdom Slam",
-            "product-img-1": "./images/Sketches/slam.png"
+            "product-img-1": "require('./images/Sketches/castle.png')"
         },
         {
             "id": 2,
             "data": "10/01/2024",
             "type": "sketch",
             "product": "Desert Castle",
-            "product-img-1": "./images/Sketches/desert.png"
+            "product-img-1": "require('./images/Sketches/desert.png')"
         },
         {
             "id": 3,

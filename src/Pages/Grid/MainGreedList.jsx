@@ -6,7 +6,7 @@ export default function MainGreedList(){
             <div className="container">
                 <div className="worklist">
                     {data?.works?.map((items, i) => (
-                        <div key={i} className="worklist__card" style={{ gridColumn: Math.random() < 0.5 ? 'auto / span 2' : 'auto' }}>
+                        <div key={i} className="worklist__card">
                         <div className="worklist__card--head">
                             <p>{items.data}</p>
                             <div className="card--id">
@@ -15,7 +15,7 @@ export default function MainGreedList(){
                             </div>
                         </div>
                         <div className="worklist__card--content">
-                            <img src={items['product-img-1']} alt="" srcset="" />
+                            <img src={require(items['product-img-1'])} alt="" srcset="" />
                         </div>
                     </div>
                     ))}
