@@ -19,28 +19,31 @@
             "data": "05/01/2024",
             "type": "web-site",
             "product": "Party Time",
-            "product-img-1": "./Images/Web/party-time.png"
+            "product-img-1": "./Images/Web/party-time-cover.png",
+            "onhover": "#DD24E1"
         },
         {
             "id": 4,
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Paprika Agancy",
-            "product-img-1": "./Images/Web/paprika-agancy.png"
+            "product-img-1": "./Images/Web/paprika-agancy-cover.png",
+            "onhover": "#FF5B58"
         },
         {
             "id": 5,
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Texnogarant",
-            "product-img-1": "./Images/Web/texnogarant.png"
+            "product-img-1": "./Images/Web/texnogarant-cover.png",
+            "onhover": "#00C9FF"
         },
         {
             "id": 6,
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Box",
-            "product-img-1": "./Images/Web/box.png"
+            "product-img-1": "./Images/Web/box-cover.png"
         },
         {
             "id": 7,
@@ -59,7 +62,7 @@
             "data": "09/09/2023",
             "type": "posts",
             "product": "Chesni Pharm",
-            "product-img-1": "./Images/Posts/chesni-pharm-1.png",
+            "product-img-1": "./Images/Posts/chesni-pharm-cover.png",
             "product-img-2": "./Images/Posts/chesni-pharm-2.png",
             "product-img-3": "./Images/Posts/chesni-pharm-3.png",
             "product-img-4": "./Images/Posts/chesni-pharm-4.png",
@@ -113,7 +116,7 @@
         {
             "id": 11,
             "data": "13/03/2023",
-            "type": "posts",
+            "type": "logo",
             "product": "Premium Mebel",
             "product-img-1": "./Images/Logos/premium-mebel-1.jpg",
             "product-img-2": "./Images/Logos/premium-mebel-2.jpg",
@@ -125,7 +128,7 @@
             "data": "18/04/2023",
             "type": "posts",
             "product": "Academy Of Al-Xorezmi",
-            "product-img-1": "./Images/Posts/academy-of-al-xorezmiy-1.png",
+            "product-img-1": "./Images/Posts/academy-of-al-xorezmiy-cover.png",
             "product-img-2": "./Images/Posts/academy-of-al-xorezmiy-2.png",
             "product-img-3": "./Images/Posts/academy-of-al-xorezmiy-3.png"
         },

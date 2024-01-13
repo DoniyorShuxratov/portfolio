@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import data from '../../Data/data.json';
 import { Img } from 'react-image';
 
-class MainGridList extends Component {
+class SketchesList extends Component {
+
   render() {
+    const filterItems = data?.works?.filter(items => items.type === 'sketch');
     return (
       <section className="worklist--section">
         <div className="container">
           <div className="worklist">
-            {data?.works?.map((items, i) => (
+            {filterItems.map((items, i) => (
               <WorkListItem key={i} items={items} />
             ))}
           </div>
@@ -46,4 +48,4 @@ class WorkListItem extends Component {
   }
 }
 
-export default MainGridList;
+export default SketchesList;
