@@ -42,9 +42,9 @@ export default function Navigation(){
                             </div>
                         </div>
                         <div className="header__link--media op-d s-3">
-                            <a href="#">Instagram</a>
-                            <a href="#">Telegram</a>
-                            <a href="#">Github</a>
+                            <a href="https://www.instagram.com/davidch_dm">Instagram</a>
+                            <a href="https://t.me/paint_110">Telegram</a>
+                            <a href="https://github.com/DoniyorShuxratov">Github</a>
                         </div>
                     </div>   
                     <div className="header__paragraph  op-d s-2">

@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Index';
-import AnimJsc from './Pages/Anim';
+
 import Navigation from './Pages/Navigation';
 import WebSiteList from './Pages/Grid/WebSiteList';
 import PostsList from './Pages/Grid/PostsList';
@@ -16,8 +16,7 @@ function App() {
      
       <Router>
         <div className='mainframe'>
-          {/* <AnimJsc/> */}
-          
+
           <Routes>
             <Route path='/' element={<>
               <Navigation/> 
