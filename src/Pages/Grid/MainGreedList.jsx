@@ -26,7 +26,6 @@ function WorkListItem({ items }) {
 
   const handleItem = (frame) => {
     navigate('/main-grid', { state: frame });
-    window.location.reload();
   };
 
   const { data, id, 'product-img-1': imgSrc, 'product-img-2': imgSrc2, 'product-img-3': imgSrc3,  'product-img-4': imgSrc4,  'product-img-5': imgSrc5,  'product-img-6': imgSrc6,  'product-img-7': imgSrc7,  'product-img-8': imgSrc8, onhover, product, type, } = items;

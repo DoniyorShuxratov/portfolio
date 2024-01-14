@@ -7,7 +7,6 @@ export default function EachWorkScreen(){
     const navigate = useNavigate();
     const handleBack = () => {
         navigate('/');
-        window.location.reload();
     };
     
     return(

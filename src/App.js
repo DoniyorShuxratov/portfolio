@@ -16,7 +16,7 @@ function App() {
      
       <Router>
         <div className='mainframe'>
-          <AnimJsc/>
+          {/* <AnimJsc/> */}
           
           <Routes>
             <Route path='/' element={<>
