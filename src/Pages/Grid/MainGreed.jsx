@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
-
+import { Img } from 'react-image';
 import { BiSolidLeftTopArrowCircle } from "react-icons/bi";
 export default function EachWorkScreen(){
     const {state: frame} = useLocation(); 
@@ -30,22 +30,22 @@ export default function EachWorkScreen(){
             </div>
             <div className="eachframe__content">
                 <div className="eachframe__content--top op-d">
-                    <img src={frame.imgSrc} alt=""/>
+                    <Img src={frame.imgSrc} alt=""/>
                 </div>
                 <div className="eachframe__content--bottom"></div>
             </div>
             <div className="eachframe__footer">
                 <div className="eachframe__footer--left">
-                    <img src={frame.imgSrc1} alt="" srcset="" />
-                    <img src={frame.imgSrc3} alt="" srcset="" />
-                    <img src={frame.imgSrc5} alt="" srcset="" />
-                    <img src={frame.imgSrc7} alt="" srcset="" />
+                    <Img src={frame.imgSrc1} alt="" srcset="" />
+                    <Img src={frame.imgSrc3} alt="" srcset="" />
+                    <Img src={frame.imgSrc5} alt="" srcset="" />
+                    <Img src={frame.imgSrc7} alt="" srcset="" />
                 </div>
                 <div className="eachframe__footer--right">
-                    <img src={frame.imgSrc2} alt="" srcset="" />
-                    <img src={frame.imgSrc4} alt="" srcset="" />
-                    <img src={frame.imgSrc6} alt="" srcset="" />
-                    <img src={frame.imgSrc8} alt="" srcset="" />
+                    <Img src={frame.imgSrc2} alt="" srcset="" />
+                    <Img src={frame.imgSrc4} alt="" srcset="" />
+                    <Img src={frame.imgSrc6} alt="" srcset="" />
+                    <Img src={frame.imgSrc8} alt="" srcset="" />
                 </div>
             </div>
         </section>
