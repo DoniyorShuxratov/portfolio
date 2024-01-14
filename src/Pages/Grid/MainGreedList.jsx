@@ -29,7 +29,7 @@ function WorkListItem({ items }) {
     navigate('/main-grid', { state: frame });
   };
 
-  const { data, id, 'product-img-1': imgSrc, 'product-img-2': imgSrc2, 'product-img-3': imgSrc3, 'product-img-4': imgSrc4, 'product-img-5': imgSrc5, 'product-img-6': imgSrc6, 'product-img-7': imgSrc7, 'product-img-8': imgSrc8, onhover, product, type, } = items;
+  const { data, id, 'product-img-1': imgSrc, 'product-img-2': imgSrc2, 'product-img-3': imgSrc3, 'product-img-4': imgSrc4, 'product-img-5': imgSrc5, 'product-img-6': imgSrc6, 'product-img-7': imgSrc7, 'product-img-8': imgSrc8, onhover, product, type, link } = items;
 
   function changeBackground(e) {
     e.target.style.background = onhover;
@@ -59,7 +59,7 @@ function WorkListItem({ items }) {
       animate={mainControls}
       transition={{duration: .75, delay: .5, ease: 'easeOut'}}  
 
-      className='worklist__card op-d s-1' onClick={() => handleItem({ data, id, imgSrc, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8, onhover, product, type })}
+      className='worklist__card op-d s-1' onClick={() => handleItem({ data, id, imgSrc, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8, onhover, product, type, link })}
     >
       <div className="worklist__card--head">
         <p>{data}</p>

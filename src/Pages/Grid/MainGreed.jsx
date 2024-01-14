@@ -1,10 +1,10 @@
 import { useLocation } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
-import { Img } from 'react-image';
+
 import { BiSolidLeftTopArrowCircle } from "react-icons/bi";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import {motion as m, } from "framer-motion";
-
+import { CgArrowTopRight } from "react-icons/cg";
 
 export default function EachWorkScreen(){
     const {state: frame} = useLocation(); 
@@ -16,10 +16,25 @@ export default function EachWorkScreen(){
     const imageVariants = {
         hidden: { opacity: 0, scale: 0 },
         visible: { opacity: 1, scale: 1 },
-      };
+    };
+    function handleClick() {
+        window.location.href = frame.link;
+    }
+    
     
     return(
         <section className="eachframe--section">
+            <m.button  
+            variants={{
+                hidden: {opacity: 0, y:75},
+                visible: {opacity: 1, y: 0},
+            }}
+            initial='hidden'
+            animate='visible'
+            transition={{duration: .5, delay: .5, ease: 'easeOut'}} 
+            className="link--btn" onClick={handleClick}>
+                <p>Visit</p> <CgArrowTopRight size={25}/>
+            </m.button>
             <m.div 
                 variants={{
                     hidden: {opacity: 0, y:75},
@@ -55,8 +70,8 @@ export default function EachWorkScreen(){
                 </div>
             </m.div>
             <div className="eachframe__content">
-                <div className="eachframe__content--top op-d">
-                    <Img loading="lazy" src={frame.imgSrc} alt=""/>
+                <div className="eachframe__content--top">
+                    <img style={{backgroundColor: `${frame.onhover}`}} loading="lazy" src={frame.imgSrc} alt=""/>
                 </div>
                 <div className="eachframe__content--bottom"></div>
             </div>

@@ -5,14 +5,16 @@
             "data": "10/01/2024",
             "type": "sketch",   
             "product": "Kingdom Slam",
-            "product-img-1": "./Images/Sketches/slam.png"
+            "product-img-1": "./Images/Sketches/slam.png",
+            "link": "https://ik.imagekit.io/imagesOptimaization/Images/Sketches/slam.png?updatedAt=1705223684768"
         },
         {
             "id": 2,
             "data": "10/01/2024",
             "type": "sketch",
             "product": "Desert Castle",
-            "product-img-1": "./Images/Sketches/desert.png"
+            "product-img-1": "./Images/Sketches/desert.png",
+            "link": "https://ik.imagekit.io/imagesOptimaization/Images/Sketches/desert.png?updatedAt=1705223681307"
         },
         {
             "id": 3,
@@ -20,7 +22,8 @@
             "type": "web-site",
             "product": "Party Time",
             "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/party-time-cover.png?updatedAt=1705223681169",
-            "onhover": "#DD24E1"
+            "onhover": "#DD24E1",
+            "link": "https://doniyorshuxratov.github.io/party-time-aynura/main.html"
         },
         {
             "id": 8,
@@ -34,7 +37,9 @@
             "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-5.png?updatedAt=1705223690340",
             "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-6.png?updatedAt=1705223691277",
             "product-img-7": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-3.png?updatedAt=1705223687754",
-            "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-2.png?updatedAt=1705223687640"
+            "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-2.png?updatedAt=1705223687640",
+            "onhover": "#01b401",
+            "link": ""
         },
         {
             "id": 4,
@@ -42,7 +47,8 @@
             "type": "web-site",
             "product": "Paprika Agancy",
             "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/paprika-agancy-cover.png?updatedAt=1705223681170",
-            "onhover": "#FF5B58"
+            "onhover": "#FF5B58",
+            "link": "https://st40.online"
         },
         {
             "id": 5,
@@ -50,7 +56,8 @@
             "type": "web-site",
             "product": "Texnogarant",
             "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/texnogarant-cover.png?updatedAt=1705223681288",
-            "onhover": "#00C9FF"
+            "onhover": "#00C9FF",
+            "link": "https://texnogarant-web.vercel.app/"
         },
         {
             "id": 7,
@@ -61,14 +68,17 @@
             "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-2.png?updatedAt=1705223710139",
             "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-3.png?updatedAt=1705223716217",
             "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-5.png?updatedAt=1705223718584",
-            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-6.png?updatedAt=1705223718767"
+            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-6.png?updatedAt=1705223718767",
+            "link": "https://www.instagram.com/omy.red"
         },
         {
             "id": 6,
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Box",
-            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/box-cover.png?updatedAt=1705223681059"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/box-cover.png?updatedAt=1705223681059",
+            "onhover": "#d096ff",
+            "link": ""
         },
         {
             "id": 9,
@@ -77,7 +87,8 @@
             "product": "PDP Students Union",
             "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-1.png?updatedAt=1705223693490",
             "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-2.jpg?updatedAt=1705223694463",
-            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-3.jpg?updatedAt=1705223694524"
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-3.jpg?updatedAt=1705223694524",
+            "link": "https://www.instagram.com/students.pdp"
         },
         {
             "id": 10,
@@ -92,7 +103,18 @@
             "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-5.png?updatedAt=1705223700164",
             "product-img-7": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-6.png?updatedAt=1705223700223",
             "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-7.png?updatedAt=1705223700485",
-            "product-img-9": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-8.png?updatedAt=1705223700689"
+            "product-img-9": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-8.png?updatedAt=1705223700689",
+            "onhover": "#233159",
+            "link": "https://www.instagram.com/perfectelevators/"
+        },
+        {
+            "id": 12,
+            "data": "30/12/2023",
+            "type": "web-site",
+            "product": "Atel Cart",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/AtelCart-cover.png?updatedAt=1705223681218",
+            "onhover": "#ff5563",
+            "link": ""
         },
         {
             "id": 11,
@@ -104,20 +126,22 @@
             "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-9.png?updatedAt=1705223723792",
             "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-6.jpg?updatedAt=1705223725188",
             "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-4.jpg?updatedAt=1705223729109",
-            "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-5.jpg?updatedAt=1705223720461"
+            "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-5.jpg?updatedAt=1705223720461",
+            "link": "https://www.instagram.com/permacolor/"
         },
         {
-            "id": 11,
+            "id": 12,
             "data": "13/03/2023",
             "type": "logo",
             "product": "Premium Mebel",
             "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-1.jpg?updatedAt=1705223722295",
             "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-2.jpg?updatedAt=1705223723359",
             "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-3.jpg?updatedAt=1705223723745",
-            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-4.jpg?updatedAt=1705223725034"
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-4.jpg?updatedAt=1705223725034",
+            "link": "https://www.instagram.com/premiummebel.chust/"
         },
         {
-            "id": 12,
+            "id": 13,
             "data": "18/04/2023",
             "type": "posts",
             "product": "Academy Of Al-Xorezmi",
@@ -125,14 +149,16 @@
             "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-3.png?updatedAt=1705223686831",
             "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-2.png?updatedAt=1705223686575",
             "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-1.png?updatedAt=1705223686359",
-            "onhover": "#5f8db5"
+            "onhover": "#5f8db5",
+            "link": "https://www.instagram.com/academy_of_al_xorazmiy/"
         },
         {
             "id": 1,
             "data": "10/01/2024",
             "type": "logo",   
             "product": "Const",
-            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/const.png?updatedAt=1705223722532"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/const.png?updatedAt=1705223722532",
+            "link":""
         }
     ]
 }
