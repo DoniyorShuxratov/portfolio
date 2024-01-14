@@ -50,7 +50,7 @@ function WorkListItem({ items }) {
         </div>
       </div>
       <div className="worklist__card--content" onMouseLeave={restoreBackground} onMouseEnter={changeBackground}>
-        <Img src={imgSrc} alt="img" />
+        <Img loading="lazy" src={imgSrc} alt="img" />
       </div>
     </div>
   );

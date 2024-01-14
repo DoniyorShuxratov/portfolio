@@ -29,22 +29,22 @@ export default function EachWorkScreen(){
             </div>
             <div className="eachframe__content">
                 <div className="eachframe__content--top op-d">
-                    <Img src={frame.imgSrc} alt=""/>
+                    <Img loading="lazy" src={frame.imgSrc} alt=""/>
                 </div>
                 <div className="eachframe__content--bottom"></div>
             </div>
             <div className="eachframe__footer">
                 <div className="eachframe__footer--left">
-                    <Img src={frame.imgSrc1} alt="" srcset="" />
-                    <Img src={frame.imgSrc3} alt="" srcset="" />
-                    <Img src={frame.imgSrc5} alt="" srcset="" />
-                    <Img src={frame.imgSrc7} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc1} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc3} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc5} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc7} alt="" srcset="" />
                 </div>
                 <div className="eachframe__footer--right">
-                    <Img src={frame.imgSrc2} alt="" srcset="" />
-                    <Img src={frame.imgSrc4} alt="" srcset="" />
-                    <Img src={frame.imgSrc6} alt="" srcset="" />
-                    <Img src={frame.imgSrc8} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc2} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc4} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc6} alt="" srcset="" />
+                    <Img loading="lazy" src={frame.imgSrc8} alt="" srcset="" />
                 </div>
             </div>
         </section>
