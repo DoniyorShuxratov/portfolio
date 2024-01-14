@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
 import data from '../../Data/data.json';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { useInView, motion as m, useAnimation } from "framer-motion";
 
 class MainGridList extends Component {
 
   render() {
 
     return (
-      <section className="worklist--section">
+      <section className='worklist--section'>
         <div className="container">
           <div className="worklist">
             {data?.works?.map((items, i) => (
@@ -28,7 +29,7 @@ function WorkListItem({ items }) {
     navigate('/main-grid', { state: frame });
   };
 
-  const { data, id, 'product-img-1': imgSrc, 'product-img-2': imgSrc2, 'product-img-3': imgSrc3,  'product-img-4': imgSrc4,  'product-img-5': imgSrc5,  'product-img-6': imgSrc6,  'product-img-7': imgSrc7,  'product-img-8': imgSrc8, onhover, product, type, } = items;
+  const { data, id, 'product-img-1': imgSrc, 'product-img-2': imgSrc2, 'product-img-3': imgSrc3, 'product-img-4': imgSrc4, 'product-img-5': imgSrc5, 'product-img-6': imgSrc6, 'product-img-7': imgSrc7, 'product-img-8': imgSrc8, onhover, product, type, } = items;
 
   function changeBackground(e) {
     e.target.style.background = onhover;
@@ -40,8 +41,26 @@ function WorkListItem({ items }) {
     e.target.style.transition = 'background 0.3s ease';
   }
 
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once: true});
+  const mainControls = useAnimation();
+  useEffect(() => {
+    if(isInView) {
+      mainControls.start('visible');
+    };
+  },[isInView]);
   return (
-    <div className='worklist__card op-d s-1' onClick={() => handleItem({ data, id, imgSrc, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8,  onhover, product, type })}>
+    <m.div ref={ref}
+      variants={{
+        hidden: {opacity: 0, y:75},
+        visible: {opacity: 1, y: 0},
+      }}
+      initial='hidden'
+      animate={mainControls}
+      transition={{duration: .75, delay: .5, ease: 'easeOut'}}  
+
+      className='worklist__card op-d s-1' onClick={() => handleItem({ data, id, imgSrc, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8, onhover, product, type })}
+    >
       <div className="worklist__card--head">
         <p>{data}</p>
         <div className="card--id">
@@ -50,9 +69,9 @@ function WorkListItem({ items }) {
         </div>
       </div>
       <div className="worklist__card--content" onMouseLeave={restoreBackground} onMouseEnter={changeBackground}>
-        <LazyLoadImage width='100%' height='100%'  loading="lazy" src={imgSrc} alt="img" />
+        <LazyLoadImage width='100%' height='100%' loading="lazy" src={imgSrc} alt="img" />
       </div>
-    </div>
+    </m.div>
   );
 }
 

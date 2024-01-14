@@ -241,10 +241,3 @@ a:hover {
     flex-direction: column;
     gap: 8px;
 }
-
-.product--img {
-    width: 100%;
-    height: auto;
-    background-color: var(--main-light);
-    border-radius: 18px;
-}
