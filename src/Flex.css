@@ -32,5 +32,7 @@
     .cl-2 {
         grid-column: auto!important;
     }
-    
+    .link--btn {
+        left: 36%!important;
+    }
 }
