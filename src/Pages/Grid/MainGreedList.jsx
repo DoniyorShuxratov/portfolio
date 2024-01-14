@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import data from '../../Data/data.json';
-import { Img } from 'react-image';
 import { useNavigate } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class MainGridList extends Component {
 
@@ -50,7 +50,7 @@ function WorkListItem({ items }) {
         </div>
       </div>
       <div className="worklist__card--content" onMouseLeave={restoreBackground} onMouseEnter={changeBackground}>
-        <Img loading="lazy" src={imgSrc} alt="img" />
+        <LazyLoadImage width='100%' height='100%'  loading="lazy" src={imgSrc} alt="img" />
       </div>
     </div>
   );

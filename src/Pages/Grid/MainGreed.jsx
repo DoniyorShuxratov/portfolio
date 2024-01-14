@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import { Img } from 'react-image';
 import { BiSolidLeftTopArrowCircle } from "react-icons/bi";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function EachWorkScreen(){
     const {state: frame} = useLocation(); 
     const navigate = useNavigate();
@@ -35,16 +36,32 @@ export default function EachWorkScreen(){
             </div>
             <div className="eachframe__footer">
                 <div className="eachframe__footer--left">
-                    <Img loading="lazy" src={frame.imgSrc1} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc3} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc5} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc7} alt="" srcset="" />
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc2} />
+                    </div>
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc4} />
+                    </div>
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc6} />
+                    </div>
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc8} />
+                    </div>
+                    
+         
                 </div>
                 <div className="eachframe__footer--right">
-                    <Img loading="lazy" src={frame.imgSrc2} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc4} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc6} alt="" srcset="" />
-                    <Img loading="lazy" src={frame.imgSrc8} alt="" srcset="" />
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc3} />
+                    </div>
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc5} />
+                    </div>
+                    <div className="product--img">
+                        <LazyLoadImage loading="lazy" src={frame.imgSrc7} />
+                    </div>
+    
                 </div>
             </div>
         </section>
