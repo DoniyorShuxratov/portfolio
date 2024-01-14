@@ -4,11 +4,11 @@ import { Img } from 'react-image';
 
 class SketchesList extends Component {
 
-  render() {
+    render() {
     const filterItems = data?.works?.filter(items => items.type === 'sketch');
     return (
       <section className="worklist--section">
-        <div className="container">
+        <div className="container"> 
           <div className="worklist">
             {filterItems.map((items, i) => (
               <WorkListItem key={i} items={items} />

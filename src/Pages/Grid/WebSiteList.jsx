@@ -32,7 +32,8 @@ class WorkListItem extends Component {
       e.target.style.transition = 'background 0.3s ease';
     }
     return (
-      <div className='worklist__card op-d s-1'>
+        
+      <div className='worklist__card op-d s-1'>,
         <div className="worklist__card--head">
           <p>{data}</p>
           <div className="card--id">

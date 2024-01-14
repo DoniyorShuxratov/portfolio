@@ -130,7 +130,8 @@
             "product": "Academy Of Al-Xorezmi",
             "product-img-1": "./Images/Posts/academy-of-al-xorezmiy-cover.png",
             "product-img-2": "./Images/Posts/academy-of-al-xorezmiy-2.png",
-            "product-img-3": "./Images/Posts/academy-of-al-xorezmiy-3.png"
+            "product-img-3": "./Images/Posts/academy-of-al-xorezmiy-3.png",
+            "onhover": "#5f8db5"
         },
         {
             "id": 1,

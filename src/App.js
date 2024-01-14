@@ -8,26 +8,49 @@ import WebSiteList from './Pages/Grid/WebSiteList';
 import PostsList from './Pages/Grid/PostsList';
 import LogosList from './Pages/Grid/LogosList';
 import SketchesList from './Pages/Grid/SketchesList';
+import EachWorkScreen from './Pages/Grid/MainGreed';
 
 function App() {
-  return ( 
+  return (
     <div className='App'>
-      
+     
       <Router>
         <div className='mainframe'>
           <AnimJsc/>
-          <Navigation/>
+          
           <Routes>
-            <Route path='/' element={<Home/>}></Route>
-            <Route path='/web-site' element={<WebSiteList/>}></Route>
-            <Route path='/posts' element={<PostsList/>}></Route>
-            <Route path='/logos' element={<LogosList/>}></Route>
-            <Route path='/sketches' element={<SketchesList/>}></Route>
+            <Route path='/' element={<>
+              <Navigation/> 
+              <Home/>
+            </>}/>
+
+            <Route path='/web-site' element={<>
+              <Navigation/>
+              <WebSiteList/>
+            </>}/>
+
+            <Route path='/posts' element={<>
+              <Navigation/>  
+              <PostsList/>
+            </>}/>
+
+            <Route path='/logos' element={<>
+              <Navigation/>
+              <LogosList/> 
+            </>}/>
+            
+            <Route path='/sketches' element={<>
+              <Navigation/>
+              <SketchesList/>
+            </>}/>
+
+            <Route path='/main-grid' element={<EachWorkScreen/>}/> 
           </Routes>
         </div>
       </Router>
     </div>
   )
 }
+
 
 export default App;

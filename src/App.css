@@ -171,3 +171,74 @@ a:hover {
     border-radius: 18.333px;
 }
 
+/* eachWorkStyle */
+
+.eachframe__head {
+    background: var(--main-light);
+    margin-bottom: 8px;
+    border-radius: 18px;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 35px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    will-change: transform;
+    transform-origin: center center;
+}
+
+.eachframe__head h1 {
+    font-size: 10vw;
+    max-width: 100%;
+}
+
+.eachframe__head button{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.eachframe__content--top > img{
+    width: 100%;
+    border-radius: 18px;
+    background-color: var(--main-light);
+}
+
+.product__info {
+    padding: 35px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    gap: 120px;
+}
+
+.eachframe__footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.eachframe__footer img {
+    width: 100%;
+    border-radius: 18px;
+}
+.eachframe__footer--left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.eachframe__footer--right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+

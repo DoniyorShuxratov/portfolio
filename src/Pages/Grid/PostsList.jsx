@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import data from '../../Data/data.json';
 import { Img } from 'react-image';
 
-class PostsList extends Component {
+class Post extends Component {
 
   render() {
     const filterItems = data?.works?.filter(items => items.type === 'posts');
@@ -48,4 +48,4 @@ class WorkListItem extends Component {
   }
 }
 
-export default PostsList;
+export default Post;
