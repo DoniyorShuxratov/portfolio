@@ -19,15 +19,29 @@
             "data": "05/01/2024",
             "type": "web-site",
             "product": "Party Time",
-            "product-img-1": "./Images/Web/party-time-cover.png",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/party-time-cover.png?updatedAt=1705223681169",
             "onhover": "#DD24E1"
+        },
+        {
+            "id": 8,
+            "data": "09/09/2023",
+            "type": "posts",
+            "product": "Chesni Pharm",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-cover.png?updatedAt=1705223692274",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-1.png?updatedAt=1705223690417",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-8.png?updatedAt=1705223691424",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-4.png?updatedAt=1705223687798png",
+            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-5.png?updatedAt=1705223690340",
+            "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-6.png?updatedAt=1705223691277",
+            "product-img-7": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-3.png?updatedAt=1705223687754",
+            "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/chesni-pharm-2.png?updatedAt=1705223687640"
         },
         {
             "id": 4,
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Paprika Agancy",
-            "product-img-1": "./Images/Web/paprika-agancy-cover.png",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/paprika-agancy-cover.png?updatedAt=1705223681170",
             "onhover": "#FF5B58"
         },
         {
@@ -35,102 +49,84 @@
             "data": "30/12/2023",
             "type": "web-site",
             "product": "Texnogarant",
-            "product-img-1": "./Images/Web/texnogarant-cover.png",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/texnogarant-cover.png?updatedAt=1705223681288",
             "onhover": "#00C9FF"
-        },
-        {
-            "id": 6,
-            "data": "30/12/2023",
-            "type": "web-site",
-            "product": "Box",
-            "product-img-1": "./Images/Web/box-cover.png"
         },
         {
             "id": 7,
             "data": "15/05/2023",
             "type": "posts",
             "product": "Red Line 13",
-            "product-img-1": "./Images/Posts/red-line-1.png",
-            "product-img-2": "./Images/Posts/red-line-2.png",
-            "product-img-3": "./Images/Posts/red-line-3.png",
-            "product-img-4": "./Images/Posts/red-line-4.png",
-            "product-img-5": "./Images/Posts/red-line-5.png",
-            "product-img-6": "./Images/Posts/red-line-6.png"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-1.png?updatedAt=1705223709279",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-2.png?updatedAt=1705223710139",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-3.png?updatedAt=1705223716217",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-5.png?updatedAt=1705223718584",
+            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/red-line-6.png?updatedAt=1705223718767"
         },
         {
-            "id": 8,
-            "data": "09/09/2023",
-            "type": "posts",
-            "product": "Chesni Pharm",
-            "product-img-1": "./Images/Posts/chesni-pharm-cover.png",
-            "product-img-2": "./Images/Posts/chesni-pharm-2.png",
-            "product-img-3": "./Images/Posts/chesni-pharm-3.png",
-            "product-img-4": "./Images/Posts/chesni-pharm-4.png",
-            "product-img-5": "./Images/Posts/chesni-pharm-5.png",
-            "product-img-6": "./Images/Posts/chesni-pharm-6.png",
-            "product-img-7": "./Images/Posts/chesni-pharm-7.png",
-            "product-img-8": "./Images/Posts/chesni-pharm-8.png"
+            "id": 6,
+            "data": "30/12/2023",
+            "type": "web-site",
+            "product": "Box",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Web/box-cover.png?updatedAt=1705223681059"
         },
         {
             "id": 9,
             "data": "16/06/2023",
             "type": "posts",
             "product": "PDP Students Union",
-            "product-img-1": "./Images/Posts/pdp-university-1.png",
-            "product-img-2": "./Images/Posts/pdp-university-2.jpg",
-            "product-img-3": "./Images/Posts/pdp-university-3.jpg"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-1.png?updatedAt=1705223693490",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-2.jpg?updatedAt=1705223694463",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/pdp-university-3.jpg?updatedAt=1705223694524"
         },
         {
             "id": 10,
             "data": "03/10/2023",
             "type": "posts",
             "product": "Perfect Elevators",
-            "product-img-1": "./Images/Posts/perfect-elevators-1.png",
-            "product-img-2": "./Images/Posts/perfect-elevators-2.png",
-            "product-img-3": "./Images/Posts/perfect-elevators-3.png",
-            "product-img-4": "./Images/Posts/perfect-elevators-4.png",
-            "product-img-5": "./Images/Posts/perfect-elevators-5.png",
-            "product-img-6": "./Images/Posts/perfect-elevators-6.png",
-            "product-img-7": "./Images/Posts/perfect-elevators-7.png",
-            "product-img-8": "./Images/Posts/perfect-elevators-8.png",
-            "product-img-9": "./Images/Posts/perfect-elevators-9.png",
-            "product-img-10": "./Images/Posts/perfect-elevators-10.png",
-            "product-img-11": "./Images/Posts/perfect-elevators-11.png"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-cover.png?updatedAt=1705223703906",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-2.png?updatedAt=1705223699316",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-10.png?updatedAt=1705223696674",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-11.png?updatedAt=1705223696333",
+            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-3.png?updatedAt=1705223697654",
+            "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-5.png?updatedAt=1705223700164",
+            "product-img-7": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-6.png?updatedAt=1705223700223",
+            "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-7.png?updatedAt=1705223700485",
+            "product-img-9": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perfect-elevators-8.png?updatedAt=1705223700689"
         },
         {
             "id": 11,
             "data": "28/07/2023",
             "type": "posts",
             "product": "Perma Color",
-            "product-img-1": "./Images/Posts/perma-color-1.jpg",
-            "product-img-2": "./Images/Posts/perma-color-2.jpg",
-            "product-img-3": "./Images/Posts/perma-color-3.jpg",
-            "product-img-4": "./Images/Posts/perma-color-4.jpg",
-            "product-img-5": "./Images/Posts/perma-color-5.jpg",
-            "product-img-6": "./Images/Posts/perma-color-6.jpg",
-            "product-img-7": "./Images/Posts/perma-color-7.png",
-            "product-img-8": "./Images/Posts/perma-color-8.png",
-            "product-img-9": "./Images/Posts/perma-color-9.png",
-            "product-img-10": "./Images/Postsperma-colors-10.png"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-7.png?updatedAt=1705223730239",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-10.png?updatedAt=1705223723668",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-9.png?updatedAt=1705223723792",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-9.png?updatedAt=1705223723792",
+            "product-img-5": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-9.png?updatedAt=1705223723792",
+            "product-img-6": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-6.jpg?updatedAt=1705223725188",
+            "product-img-7": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-4.jpg?updatedAt=1705223729109",
+            "product-img-8": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/perma-color-5.jpg?updatedAt=1705223720461"
         },
         {
             "id": 11,
             "data": "13/03/2023",
             "type": "logo",
             "product": "Premium Mebel",
-            "product-img-1": "./Images/Logos/premium-mebel-1.jpg",
-            "product-img-2": "./Images/Logos/premium-mebel-2.jpg",
-            "product-img-3": "./Images/Logos/premium-mebel-3.jpg",
-            "product-img-4": "./Images/Logos/premium-mebel-4.jpg"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-1.jpg?updatedAt=1705223722295",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-2.jpg?updatedAt=1705223723359",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-3.jpg?updatedAt=1705223723745",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/premium-mebel-4.jpg?updatedAt=1705223725034"
         },
         {
             "id": 12,
             "data": "18/04/2023",
             "type": "posts",
             "product": "Academy Of Al-Xorezmi",
-            "product-img-1": "./Images/Posts/academy-of-al-xorezmiy-cover.png",
-            "product-img-2": "./Images/Posts/academy-of-al-xorezmiy-2.png",
-            "product-img-3": "./Images/Posts/academy-of-al-xorezmiy-3.png",
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-cover.png?updatedAt=1705223689978",
+            "product-img-2": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-3.png?updatedAt=1705223686831",
+            "product-img-3": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-2.png?updatedAt=1705223686575",
+            "product-img-4": "https://ik.imagekit.io/imagesOptimaization/Images/Posts/academy-of-al-xorezmiy-1.png?updatedAt=1705223686359",
             "onhover": "#5f8db5"
         },
         {
@@ -138,7 +134,7 @@
             "data": "10/01/2024",
             "type": "logo",   
             "product": "Const",
-            "product-img-1": "./Images/Logos/const.png"
+            "product-img-1": "https://ik.imagekit.io/imagesOptimaization/Images/Logos/const.png?updatedAt=1705223722532"
         }
     ]
 }
