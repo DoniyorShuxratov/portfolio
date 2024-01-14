@@ -61,7 +61,6 @@ export default function EachWorkScreen(){
                     <div className="product--img">
                         <LazyLoadImage loading="lazy" src={frame.imgSrc7} />
                     </div>
-    
                 </div>
             </div>
         </section>
