@@ -54,7 +54,6 @@ export default function EachWorkScreen(){
                     initial='hidden'
                     animate='visible'
                     transition={{duration: 1, delay: 1, ease: 'easeOut'}}  
-                    className="op"
                     >{frame.product}</m.h1>
                 <div className="product__info">
                     <div className="product__info--name">
@@ -69,12 +68,20 @@ export default function EachWorkScreen(){
                     </div>
                 </div>
             </m.div>
-            <div className="eachframe__content">
+            <m.div 
+                variants={{
+                    hidden: {opacity: 0, x:-75},
+                    visible: {opacity: 1, x: 0},
+                }}
+                initial='hidden'
+                animate='visible'
+                transition={{duration: 1.2, delay: 1.5, ease: 'easeOut'}}  
+                className="eachframe__content">
                 <div className="eachframe__content--top">
                     <img style={{backgroundColor: `${frame.onhover}`}} loading="lazy" src={frame.imgSrc} alt=""/>
                 </div>
                 <div className="eachframe__content--bottom"></div>
-            </div>
+            </m.div>
             <div className="eachframe__footer">
                 <div className="eachframe__footer--left">
                     <m.div className="product--img" initial="hidden" animate="visible" variants={imageVariants}>
